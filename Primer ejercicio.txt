@@ -1,0 +1,21 @@
+print("===============Primer Ejercicio==============")
+a,b=map(int,input().split())
+f=max(a,b)
+e=min(a,b)
+contador=0
+par =0
+impar=0
+for i in range (e+1,f):
+    print(i,end=" ")
+    if(i%2==0):
+        par=par+i
+    else:
+        impar=impar+i
+    contador =contador+1
+print("\n","Existen:",contador,"numeros")
+print("La suma de los numeros pares es:",par)
+print("La suma de los numeros impares es:",impar)
+print("==============================0=============")
+print("Nombre: GLADYS YUJRA YANAHUAYA")
+print("FECHA: 22 septiembre 2020")
+
